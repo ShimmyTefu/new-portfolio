@@ -1,0 +1,31 @@
+<div class="work-container">
+    <div class="section-work">
+        <h3 class="text-center">WORK</h3>
+        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet
+            nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor
+            a
+            ornare odio.</p>
+    </div>
+
+    <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="end">
+        <mat-tab class="content" label="First">
+            <div class="content">
+                <img *ngFor="let src of image" [src]="src.src">
+            </div>
+        </mat-tab>
+       
+        <mat-tab label="Second" >
+            <div class="content">
+                <img src="../../../assets/images/pic-9.jpg" alt="">
+                <img src="../../../assets/images/pic-8.jpg" alt="">
+                <img src="../../../assets/images/pic-7.jpg" alt="">
+
+            </div>
+  
+        </mat-tab>
+        <mat-tab label="Third"><div class="content"><img *ngFor="let src of image" [src]="src.src">
+        </div></mat-tab>
+    </mat-tab-group>
+
+</div>

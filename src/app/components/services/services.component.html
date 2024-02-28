@@ -1,0 +1,19 @@
+<div class="container">
+    <h2 class="text-center p-3em">Services</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum reiciendis libero assumenda rerum veritatis
+        dolores autem, totam placeat id? Repudiandae inventore at accusamus illum laborum doloremque error rerum rem
+        aspernatur.</p>
+
+    <div class="flex wrap gap-2em center-center">
+        <div *ngFor="let img of image" class="flex center-center column half-width">
+            <img  [src]="img.src" alt="laptop1">
+            <mat-card-content>
+                <h4 class="texxt-center">
+                    {{img.title}}
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nostrum voluptates eaque natus
+                    soluta sint cum assumenda! Amet corporis</p>
+            </mat-card-content>
+        </div>
+    </div>
+</div>

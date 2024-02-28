@@ -1,0 +1,37 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .section-about {
+        padding: 3em 0;
+
+        h3 {
+            font-size: 2.5em;
+            font-family: 'Arvo', serif;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: #2a404e;
+        }
+
+        .about-img img {
+            border: 2px solid #ef664d;
+            border-radius: 50%;
+            height: 200px;
+            // width: 100px;
+        }
+
+        .about-info {
+            text-align: center;
+            // color: white;
+            // width:40%;
+        }
+        .width-300px{
+            width: 50%;
+        }
+        .m-2em{
+            margin: 2em;
+        }
+    }
+}

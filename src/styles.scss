@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+.main-container {
+    margin-top: 2em;
+    background-color: none;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+  }
+  
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: url("../src/assets/images/images/AdobeStock_559428909_Preview.jpeg") no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    min-height: 550px;
+    z-index: 2;
+}
+
+.column {
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+.center-center{
+    justify-content: center;
+    align-items: center;
+}
+.spacebetween-center{
+    justify-content: space-between;
+    align-items: center;
+}
+.gap-2em{
+    gap: 2em;
+}
+.full-width{
+    width: 100%;
+}
+.content{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding: 20px 20px 0 20px;
+    background: url(../src/assets/images/left.png) no-repeat;
+    background-size: 100% 100%;
+}
+.p-3em{
+    padding: 2em 0;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.texxt-center{
+    text-align: center;
+    padding: 1em;
+}
+.half-width{
+    width: 30%;
+}
+.width-80{
+    width: 80%;
+}
