@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent {
-
+  personalDetails = [{
+    name: 'Ntshimane Tefu',
+    age: 26,
+    gender:'Male'
+  }]
 }

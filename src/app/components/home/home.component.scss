@@ -1,0 +1,41 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.width-80 {
+    width: 90%;
+    margin: 3em;
+}
+
+.mat-toolbar {
+    background: none !important;
+   
+}
+
+.top-menu  a {
+    padding: 5px 15px 0px 15px;
+    font-size: 1em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.image{
+    color: white;
+}
+.scroll{
+    cursor: pointer;
+}
+.scroll:hover{
+    color:  #ef664d;
+}
+.scrollbar{
+    position: fixed;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,35 @@
+<div class="header column " id="home">
+
+  <mat-toolbar class="width-80">
+    <span class="permanent-marker-regular">SHIMMY
+    </span>
+    <span class="spacer"></span>
+    <div class="top-menu">
+      <a (click)="scrollTo('home')" class="scroll"><span>home</span></a>
+      <a (click)="scrollTo('about')" class="scroll"><span>about</span></a>
+      <a (click)="scrollTo('work')" class="scroll"><span>work</span></a>
+      <a (click)="scrollTo('services')" class="scroll"><span>services</span></a>
+      <a (click)="scrollTo('contact')" class="scroll"><span>contact</span></a>
+    </div>
+  </mat-toolbar>
+  <app-slider></app-slider>
+  <div >
+    <a class="scrollbar" (click)="scrollTo('home')"><img src="../../../assets/images/arrow.png" alt="" /></a>
+  </div>
+</div>
+<!-- About Me -->
+<div id="about">
+  <app-about></app-about>
+</div>
+<!-- Work -->
+<div id="work">
+  <app-work></app-work>
+</div>
+<!-- Services -->
+<div id="services">
+  <app-services></app-services>
+</div>
+<!-- Contact -->
+<div id="contact">
+  <app-contact></app-contact>
+</div>

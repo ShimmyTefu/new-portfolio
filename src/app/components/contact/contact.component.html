@@ -11,30 +11,30 @@
         <i class="fa fa-google"></i>
         <i class="fa fa-linkedin"></i>
     </div>
-    <form class="flex center-center column gap-2em p-3em">
+    <form class="flex center-center column gap-2em p-3em" [formGroup]="contactForm">
         <div class="flex gap-2em width-80">
             <mat-form-field appearance="fill" class="full-width">
                 <mat-label>Name</mat-label>
-                <input matInput>
+                <input type="text" matInput placeholder="Ex. John Doe" formControlName="name">
               </mat-form-field>
             
               <mat-form-field appearance="fill" class="full-width">
                 <mat-label>Email Address</mat-label>
-                <input matInput>
+                <input type="email" matInput placeholder="Ex. pat@example.com" formControlName="email">
               </mat-form-field> 
               
               <mat-form-field appearance="fill" class="full-width">
                 <mat-label>Phone Number</mat-label>
-                <input matInput>
+                <input type="text" matInput placeholder="Ex. 0730312345" formControlName="cellNumber">
               </mat-form-field>
               
         </div>
           <div class="flex spacebetween-center width-80">
             <mat-form-field appearance="fill" class="width-80">
                 <mat-label>Textarea</mat-label>
-                <textarea matInput></textarea>
+                <textarea type="text" matInput placeholder="I would like..." formControlName="message"></textarea>
               </mat-form-field> 
-              <button mat-raised-button>Send Message</button>
+              <button mat-raised-button (click)="submit()">Send Message</button>
           </div>         
     </form>
 </div>

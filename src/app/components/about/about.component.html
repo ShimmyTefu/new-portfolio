@@ -2,29 +2,20 @@
     <div class="section-about flex column gap-2em">
         <h3 class="text-center">About Me</h3>
         <div class="about-img flex gap-2em">
-            <img src="../../../assets/images/pic-9.jpg" alt="">
+            <img src="../../../assets/images/WhatsApp Image .jpg" alt="profile-pic">
             <div class="about-info">
-                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-                    sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis
-                    sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
-                    odio tincidunt auctor a ornare odio.</p>
-                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
-                    sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis
-                    sed odio sit amet nibh vulputate cursus a sit amet mauris. . </p>
+                <p>Experienced Software Developer adept in bringing forth expertise in design, testing, 
+                    deployment and maintenance of software systems. Equipped with a diverse and promising 
+                    skill-set. Proficient in various platforms, languages. Experienced with the latest cutting edge 
+                    development tools and procedures.  Able to effectively self-manage during independent 
+                    projects, as well as collaborate as part of a productive team</p>
             </div>
         </div>
         <div class="flex full-width">
-            <div class="m-2em  full-width">
-                <p>Designs</p>
-                <input type="range" min="1" max="100" value="90" class="full-width progress-bar">
-                <!-- </div> -->
-                <!-- <div class="slidecontainer"> -->
-                <p>Html & CSS</p>
-                <input type="range" min="1" max="100" value="85" class="full-width progress-bar">
-                <!-- </div> -->
-                <!-- <div class="slidecontainer"> -->
-                <p>AngularJS</p>
-                <input type="range" min="1" max="100" value="90" class="full-width progress-bar">
+            <div class="m-2em  full-width" *ngFor="let info of personalDetails">
+                
+                    <li>{{info.name}}</li>
+                
             </div>
             <div class="m-2em  full-width">
                 <p>Designs</p>
