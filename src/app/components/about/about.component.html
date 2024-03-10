@@ -4,19 +4,21 @@
         <div class="about-img flex gap-2em">
             <img src="../../../assets/images/WhatsApp Image .jpg" alt="profile-pic">
             <div class="about-info">
-                <p>Experienced Software Developer adept in bringing forth expertise in design, testing, 
-                    deployment and maintenance of software systems. Equipped with a diverse and promising 
-                    skill-set. Proficient in various platforms, languages. Experienced with the latest cutting edge 
-                    development tools and procedures.  Able to effectively self-manage during independent 
+                <p>Experienced Software Developer adept in bringing forth expertise in design, testing,
+                    deployment and maintenance of software systems. Equipped with a diverse and promising
+                    skill-set. Proficient in various platforms, languages. Experienced with the latest cutting edge
+                    development tools and procedures. Able to effectively self-manage during independent
                     projects, as well as collaborate as part of a productive team</p>
             </div>
         </div>
         <div class="flex full-width">
-            <div class="m-2em  full-width" *ngFor="let info of personalDetails">
-                
-                    <li>{{info.name}}</li>
-                
-            </div>
+            <!-- <div class="m-2em  full-width" *ngFor="let info of personalDetails">
+                <a>Name & Surname: {{info.name}}</a>
+                <br>
+                <a>Gender: {{info.gender}}</a>
+                <br>
+                <a>Age: {{info.age}}</a>
+            </div> -->
             <div class="m-2em  full-width">
                 <p>Designs</p>
                 <input type="range" min="1" max="100" value="90" class="full-width">

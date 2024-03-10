@@ -32,7 +32,6 @@ export class ContactComponent {
         next: (res: any) => {
           // sessionStorage.setItem('currentUser', JSON.stringify(res));
           this.contactForm.reset();
-
           console.log(res)
         },
         error: (err: any) => this.snackBar.open(err.error, 'Ok', { duration: 3000 }),

@@ -15,6 +15,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './components/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ChartsComponent } from './components/charts/charts.component';
+
 
 
 
@@ -28,6 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
     ServicesComponent,
     ContactComponent,
     HomeComponent,
+    ChartsComponent,
 
   ],
   imports: [

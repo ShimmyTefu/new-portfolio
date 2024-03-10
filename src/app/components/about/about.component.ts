@@ -11,4 +11,6 @@ export class AboutComponent {
     age: 26,
     gender:'Male'
   }]
+
 }
+
